@@ -19,10 +19,10 @@ n=16; % number of slcs
 
 %Just read in coherent inteferograms with a temporal
 %baseline of 48 days or less
-Bperp0=load('Bperp_good.out');
-Tm0=load('Tm_good.out');
-deltime0=load('deltime_good.out'); 
-timedeltas0=load('timedeltas_good.out');
+Bperp0=load('Bperp_good_ascending.out');
+Tm0=load('Tm_good_ascending.out');
+deltime0=load('deltime_good_ascending.out'); 
+timedeltas0=load('timedeltas_good_ascending.out');
 
 
 Bperp1=zeros(size(Bperp0));
@@ -30,13 +30,13 @@ Tm1=zeros(size(Tm0));
 deltime1=zeros(size(deltime0));
 
 
-cells2=importdata('sbas_list_good');
-%cells2=importdata('sbas_list36');
+cells2=importdata('sbas_list_good_ascending');
+%cells2=importdata('sbas_list36_ascending');
 N2=length(cells2);
 
 sbas_dates0=string(cells2.textdata);
 sbas_data0=string(cells2.data);
-cells=importdata('intlist_good');
+cells=importdata('intlist_good_ascending');
 %cells=importdata('intlist36');
 N=length(cells);
 lambda=5.6; %wavelength
