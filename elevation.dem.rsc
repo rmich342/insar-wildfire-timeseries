@@ -1,0 +1,11 @@
+WIDTH          24667         
+FILE_LENGTH    10261         
+X_FIRST        -106.03694153 
+Y_FIRST        40.87611008   
+X_STEP         0.46296296E-04
+Y_STEP         -0.46296296E-04
+X_UNIT         degrees      
+Y_UNIT         degrees      
+Z_OFFSET       0            
+Z_SCALE        1            
+PROJECTION     LL           
